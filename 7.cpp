@@ -23,25 +23,14 @@ int main()
       }
       cout<<endl;
 
-// Sum of elements 
+// Sum of elements and average
+int avg = sum5/size5;
       for(int k = 0; k<size5; k++){
             sum5 = sum5 + arr3[k];
       }
-      cout<<"The sum of the elements in the array is:"<<sum5;
+      cout<<"The sum of the elements in the array is:"<<sum5<<endl;
+      cout<<"The average of the elements in the array is:"<<avg<<endl;
 
-// Finding the target element in an array
-      cout<<endl<<"Enter the element to find in array: "<<endl;
-      cin>>target;
-      for(int l = 0; l<5; l++){
-           if(arr1[l]==target){
-             cout<<"Element found at index: "<<l;
-           }
-           else{
-            cout<<"No such element exists";
-            break;
-           }
-      
-      }
 
 // Reversing an array 
      
@@ -50,11 +39,31 @@ int main()
      }
      cout<<endl;
      
+// Finding array ith count and flag
+int marks[5], num, flag=0, count=0, i,j;
+for(i=0;i<5;i++) {
+cout<<"Enter element-"<<i+1<<": ";
+cin>>marks[i];
+}
+cout<<"Enter element to be searched: ";
+cin>>num;
+for(j=0;j<5;j++) {
+if(marks[j]==num) {
+cout<<"Position of "<<num<<": "<<j+1<<endl;
+count++;
+flag=1;
+}
+}
+if(flag==0) {
+cout<<"Element not present";
+}
+else if(flag==1) {
+cout<<"Element is present: "<<count<<" times";
+}
 
 
 
+    
 
-
-
-      return 0;
+    return 0;
 }
