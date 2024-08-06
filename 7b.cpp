@@ -15,7 +15,7 @@ return 0;
 string b;
 cout<<"Enter strings: ";
 cin>>a>>b;
-cout<<"CONCATENATION: "<<c+b;
+cout<<"CONCATENATION: "<<a+b;
 cout<<endl;
 }
 
