@@ -38,8 +38,9 @@ int avg = sum5/size5;
         cout<<arr2[m]<<"";
      }
      cout<<endl;
-     
+
 // Finding array ith count and flag
+
 int marks[5], num, flag=0, count=0, i,j;
 for(i=0;i<5;i++) {
 cout<<"Enter element-"<<i+1<<": ";
@@ -61,9 +62,28 @@ else if(flag==1) {
 cout<<"Element is present: "<<count<<" times";
 }
 
+// Max and Min in an array
 
-
-    
+int n, max=0;
+cout<<"Enter number of elements: ";
+cin>>n;
+int a[n];
+for(i=0;i<n;i++){
+cout<<"Enter element-"<<i<<": ";
+cin>>a[i];
+}
+for(i=0;i<n;i++){
+if(a[i]>max){
+max=a[i];
+}
+}
+int min=a[0];
+for(i=0;i<n;i++){
+if(min>a[i]){
+min=a[i];
+}
+}
+cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 
     return 0;
 }
