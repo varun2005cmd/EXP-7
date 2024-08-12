@@ -133,6 +133,10 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 
 ## CODE OUTPUT:
 
+![image](https://github.com/user-attachments/assets/3bc1f910-aa54-4676-9b0a-69d4db6893e4)
+
+
+
 
 
 Conclusion:
