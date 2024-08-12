@@ -135,8 +135,7 @@ cout<<"Maximum: "<<max<<endl<<"Minimum: "<<min;
 
 ![image](https://github.com/user-attachments/assets/3bc1f910-aa54-4676-9b0a-69d4db6893e4)
 
-
-
+![image](https://github.com/user-attachments/assets/e9fa065f-4cea-463b-9f69-729fed255489)
 
 
 Conclusion:
