@@ -1,41 +1,58 @@
-// Varun Pendem
+//Varun Pendem
 // PRN: 23070123149
 
 #include<iostream>
 #include<string>
+
 using namespace std;
-int main() {
-string a;
-cout<<"Enter a word: ";
-cin>>a;
-cout<<"The entered string is "<<a<<endl;
-return 0;
 
-// Concatenation of strings
-string b;
-cout<<"Enter strings: ";
-cin>>a>>b;
-cout<<"CONCATENATION: "<<a+b;
-cout<<endl;
-}
+int main()
+{
+    string a;
+    cout<<"Enter any string"<<endl;
+    cin>> a;
+    cout<<"The entered string is: "<<a<<endl;
 
-// Reversing a string
-for(int i=a.length()-1;i>=0;i--) {
-cout<<a[i];
-cout<<endl;
-}
+    cout<<endl;
 
-// Checking Palindrome
-int n=a.length(), i, flag=0;
-for(i=0;i<a.length();i++){
-if(a[i]==a[n-1]){
-flag=1;
-}
-n--;
-}
-if(flag==1){
-cout<<a<<" is palindrome";
-}
-else{
-cout<<a<<" is not palindrome";
+    cout<<"Concatenation of 2 strings: "<<endl;
+    cout<<"\nEnter 2 strings to concatenate: "<<endl;
+    string str1,str2,str3,str4;
+    cin>> str1>> str2;
+    cout<<"\nConcatenation of the 2 strings: "<<str1+str2<<endl;
+
+    cout<<endl;    
+    cout<<"\nEnter a string to reverse"<<endl;
+    cin>> str3;
+    for(int i = str3.length()-1;i>=0;i--)
+    {
+        cout<<str3[i];
+    }
+
+    cout<<endl;
+    
+    cout<<"Enter a string to check whether a given string is a Palindrome"<<endl;
+    cin>>str4;
+    int len = str4.length();
+    bool flag = true;
+    for (int i = 0; i < len / 2; i++)
+    {
+        if (str4[i] != str4[len - 1 - i])
+        {
+            flag = false;
+            break;
+        }
+    }
+
+    if(flag)
+    {
+        cout<<"The given string is  a palindrome"<<endl;
+    }
+    else 
+    {
+        cout<<"The given string is not a palindrome"<<endl;
+    }
+
+
+    return 0;
 }
