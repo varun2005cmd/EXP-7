@@ -146,13 +146,13 @@ We learnt how to implement arrays and its operations in C++ programming language
 
 # EXPERIMENT 7-B STRINGS 
 
- AIM:
+ ##AIM:
 
 To study and implement C++ strings
 
 SOFTWARE USED: VS Code
 
- THEORY
+##THEORY
 
 A string is a datatype having a sequence of characters used to represent text. Strings are commonly used for storing and manipulating textual data in computer programs. They can be manipulated using various operations like concatenation, substring extraction, and comparison.
 
@@ -172,7 +172,7 @@ In most programming languages, strings are treated as a distinct data type. This
 4. Appending and Concatenating Strings	
 5. comparing 2 strings
 
-CODE: 
+##CODE: 
 ```
 //Varun Pendem
 // PRN: 23070123149
@@ -234,7 +234,7 @@ int main()
 }
 ```
 
-CODE OUTPUT:
+##CODE OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/62e6adf3-8aba-40fb-a033-98a108ad3b1b)
 
@@ -242,6 +242,6 @@ CODE OUTPUT:
 
 
 
-Conclusion:
+##Conclusion:
 
 In this experiment we learnt how to implement string and its operations like sorting, searching, etc.
