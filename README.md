@@ -236,6 +236,9 @@ int main()
 
 CODE OUTPUT:
 
+![image](https://github.com/user-attachments/assets/62e6adf3-8aba-40fb-a033-98a108ad3b1b)
+
+
 Conclusion:
 
 In this experiment we learnt how to implement string and its operations like sorting, searching, etc.
